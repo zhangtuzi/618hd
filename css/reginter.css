@@ -26,7 +26,7 @@ body{
 .registerMDiv{
   width:5.85rem;
   position: absolute;
-  top:4.35rem;
+  top:3.45rem;
   left:0.35rem;
 }
 .round1{
@@ -48,11 +48,7 @@ body{
   line-height: 0.5rem;
   text-align: left;
 }
-.space15{
-  display: block;
-  clear:both;
-  height:0.15rem;
-}
+
 .moreNumber{
   font-size: 0.23rem;
   color:#fffcff;
@@ -80,7 +76,12 @@ body{
   padding:0.05rem 0;
   line-height: 0.4rem;
   border-radius: 0.1rem;
-  box-shadow: 1px 1px 10px #504f4f;
+	border:none;
+  box-shadow: 1px 1px 15px #504f4f;
+	-webkit-box-shadow: 1px 1px 15px #504f4f;
+	-moz-box-shadow: 1px 1px 15px #504f4f;
+	-ms-box-shadow: 1px 1px 15px #504f4f;
+	-o-box-shadow: 1px 1px 15px #504f4f;
 }
 .phoneNumber{
   width:3.95rem;
@@ -103,21 +104,26 @@ body{
 .picYDiv,.clickHq{
   float:left;
   width:1.45rem;
-  height:0.55rem;
+  height:0.5rem;
   background: #fff;
   margin-left:0.1rem;
   border-radius: 0.1rem;
   box-shadow: 1px 1px 10px #504f4f;
+	-webkit-box-shadow: 1px 1px 10px #504f4f;
+	-moz-box-shadow: 1px 1px 10px #504f4f;
+	-ms-box-shadow: 1px 1px 10px #504f4f;
+	-o-box-shadow: 1px 1px 10px #504f4f;
+
 }
 .clickHq{
   background: #fd649c;
-  line-height: 0.55rem;
+  line-height: 0.5rem;
   text-align: center;
   color:#fff;
   font-size: 0.24rem;
 }
 .cjBtn{
-  margin:0.3rem auto 0;
+  margin:0.2rem auto 0;
   width:3.99rem;
   height:0.81rem;
   background:url('images/cjBtn_bg_zhl.png');
@@ -130,4 +136,11 @@ body{
 }
 .djsz{
   background: #ccc;
+}
+.imgBR0{
+	position: fixed;
+	right:0;
+	bottom:0;
+	width:1.8rem;
+	height:auto;
 }
