@@ -6,6 +6,9 @@ body{
   background-size:6.4rem auto;
   font-family: '微软雅黑';
 }
+input:focus{
+	outline:none!important;
+}
 .clrDiv{
   width: 0;
   height:0;
@@ -63,7 +66,7 @@ body{
 .input_Name{
   float:left;
   width:1.35rem;
-  line-height: 0.6rem;
+  line-height: 0.5rem;
   color:#fff;
   text-align: right;
   font-size: 0.24rem;
@@ -72,9 +75,10 @@ body{
 .input_txt{
   float:left;
   margin-left:0.1rem;
-  height:0.4rem;
-  padding:0.05rem 0;
-  line-height: 0.4rem;
+	padding-left:0.1rem;
+  height:0.5rem;
+  line-height: 0.5rem;
+	font-size:0.24rem;
   border-radius: 0.1rem;
 	border:none;
   box-shadow: 1px 1px 15px #504f4f;
@@ -84,10 +88,10 @@ body{
 	-o-box-shadow: 1px 1px 15px #504f4f;
 }
 .phoneNumber{
-  width:3.95rem;
+  width:3.85rem;
 }
 .picYzm,.messageYzm{
-  width:2.4rem;
+  width:2.3rem;
 }
 .tipsP{
   clear:both;

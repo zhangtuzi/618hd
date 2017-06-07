@@ -29,7 +29,19 @@ $(function(){
 
   // 去抽奖按钮点击
   $('.cjBtn').on('touchend',function(){
+    var txyzm=$('.picYzm').val();//图形验证码
+    var mesyzm=$('.messageYzm').val();//短信验证码
     phoneNumberYz();
+    if(txyzm==''){
+      $('.picYzmTip span').show();
+    }else{
+      $('.picYzmTip span').hide();
+    }
+    if(mesyzm==''){
+      $('.messageYzmTip span').show();
+    }else{
+      $('.messageYzmTip span').hide();
+    }
   })
 
   // 点击获取按钮点击事件
